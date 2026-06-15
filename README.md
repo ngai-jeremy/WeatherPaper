@@ -39,7 +39,7 @@ Tools:
 2. Double-sided adhesive tape - [Buy in AliExpress](https://s.click.aliexpress.com/e/_c44TEvrn)
 
 ## License
-This project is licensed under the GNU General Public License v2.0. See the LICENSE file for details.
+This project is licensed under the GNU General Public License v2.0. See the [LICENSE](https://github.com/ngai-jeremy/WeatherPaper_V2/blob/main/LICENSE) file for details.
 
 ## Acknowledgements
 - Seeed Studio for designing the ultra-power-efficient XIAO ESP32-C3 platform.
