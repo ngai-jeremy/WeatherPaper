@@ -6,16 +6,30 @@ WeatherPaper is a health and comfort-focused smart weather station designed arou
 **Looking for the step-by-step build guide?** Check out the full project write-up on [Instructables](https://www.instructables.com/WeatherPaper-Squeezing-500-Days-of-Battery-Life-Ou/)!
 
 ## Features
+* **500 Days Battery Life:** WiFi fetching uptime cuts to a fraction of a second, driven by aggressive power management in software optimisation and firmware downclocking. 
+* **Seamless WiFi Captive Setup:** By utilising `WiFiManager` captive portal, there's no need to hardcode sensitive WiFi credentials or API keys into the source code.
+* **Frosted Resin Enclosure:** Internal components subtly become part of WeatherPaper's aesthetics. Not something to hide.
+* **Flush Wall Mount:** Built-in screw mount designed directly into the back panel for clean, seamless wall hanging.
 
 ## Firmware Optimisations
+* **CPU Downclocking:** Halved CPU frequency to just 80MHz, cutting power comsumption by 15-30%.
+* **Static IP Configuration:** Skips default DHCP negotiation, shortening wake-up time by 1-3 seconds.
+* **HTTP instead of HTTPS:** Bypass complex mathematical TLS handshake for fetching public data.
+* **HTTP Keep-Alive:** Handles multiple HTTP requests in a single TCP connection batch, keeping total active wake time down to just **4.3 seconds** per refresh cycle.
 
 ## Repository Structure
 * `/Hardware`: Contains Autodesk Fusion STL files and custom PCB Gerber manufacturing files.
 * `/Firmware`: Contains the Arduino IDE production code.
 
 ## Customising UI & Icons
+WeatherPaper is open-source and highly customisable if you want to customise the data shown.
+
 ### Swapping Data variables
+Open `WeatherPaper_Firmware.ino` and look for the JSON data parsing section. For example: `windDisp = doc["current"]["wind_speed"];`
+Change the parsed JSON key to match the data fields you want from the OpenWeatherMap One Call 3.0 API (e.g., changing `wind_speed` to `uvi` for UV Index).
+
 ### Changing UI graphics & icons
+Navigate to `bitmaps.h` tab in Arduino IDE. This tab contains all the arrays for all the graphics layouts. You can design a monochrome icon in Photoshop or Lopaka, convert it using tools like image2cpp and overwrite existing array.
 
 ## Bill Of Material (BOM)
 Microcontroller: 
