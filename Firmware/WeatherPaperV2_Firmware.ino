@@ -142,7 +142,7 @@ void connectWiFiManager() {
     Serial.println("Config saved to flash memory successfully!");
   }
 
-  if (strlen(apiKey) != 32) {  // counts character
+  if (strlen(apiKey) != 32) {  
     Serial.println("OpenWeatherMap API Key is missing");
 
     preferences.begin("weather-space", false);
