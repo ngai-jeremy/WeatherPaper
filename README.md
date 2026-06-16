@@ -27,7 +27,7 @@ WeatherPaper is a health and comfort-focused smart weather station designed arou
 WeatherPaper is open-source and highly customisable if you want to customise the data shown.
 
 ### Swapping Data variables
-Open `WeatherPaper_Firmware.ino` and look for the JSON data parsing section. For example: `windDisp = doc["current"]["wind_speed"];`
+Open `WeatherPaperV2_Firmware.ino` and look for the JSON data parsing section. For example: `windDisp = doc["current"]["wind_speed"];`
 Change the parsed JSON key to match the data fields you want from the OpenWeatherMap One Call 3.0 API (e.g., changing `wind_speed` to `uvi` for UV Index).
 
 ### Changing UI graphics & icons
