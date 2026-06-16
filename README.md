@@ -3,7 +3,7 @@
 
 ![WeatherPaper Hero Image](https://content.instructables.com/FQ0/HTFH/MPX8P88O/FQ0HTFHMPX8P88O.jpg)
 
-WeatherPaper is a health and comfort-focused smart weather station designed around a 4.2-inch e-paper display and a custom PCB. By heavily optimising both the hardware design and the ESP32 firmware, this device achieves a deep-sleep current draw of just ~44µA, allowing its 1500mAh Li-Po battery to last over a year and a half.
+WeatherPaper is a health and comfort-focused smart weather station designed around a 4.2-inch e-paper display and a custom PCB. By heavily optimising both the hardware design and the ESP32 firmware, this device achieves a current draw per cycle of just ~0.0494mAh, allowing its 1500mAh Li-Po battery to last over a year and a half.
 
 **Looking for the step-by-step build guide?** Check out the full project write-up on [Instructables](https://www.instructables.com/WeatherPaper-Squeezing-500-Days-of-Battery-Life-Ou/)!
 
