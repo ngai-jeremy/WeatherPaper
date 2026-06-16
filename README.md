@@ -35,23 +35,23 @@ Navigate to `bitmaps.h` tab in Arduino IDE. This tab contains all the arrays for
 
 ## Bill Of Material (BOM)
 Microcontroller: 
-1. Seeed Studio XIAO ESP32-C3 - [Buy in AliExpress](https://s.click.aliexpress.com/e/_c2ubReAp)
+1. Seeed Studio XIAO ESP32-C3 - [Buy in AliExpress](https://s.click.aliexpress.com/e/_c2RZpD5P)
 
 Display: 
 1. WeAct 4.2" Black-White E-paper Module - [Buy in AliExpress](https://www.aliexpress.com/item/1005008461198386.html)
 
 Battery: 
-1. 504050 3.7V 1500mAh LiPo Battery - [Buy in AliExpress](https://s.click.aliexpress.com/e/_c3bztVFF)
+1. 504050 3.7V 1500mAh LiPo Battery - [Buy in AliExpress](https://s.click.aliexpress.com/e/_c3AlFwAz)
 
 PCB Components: 
-1. 4x 0603 1MΩ Resistors - [Buy in AliExpress](https://s.click.aliexpress.com/e/_c36aE6Wl)
-2. 1x 0805 470nF Capacitor - [Buy in AliExpress](https://s.click.aliexpress.com/e/_c4o0gDF7)
-3. 1x MSK12C02 Slide Switch - [Buy in AliExpress](https://s.click.aliexpress.com/e/_c3pcpaaV)
-4. 8+2 Pins 2.54mm Pin Header Male - [Buy in AliExpress](https://s.click.aliexpress.com/e/_c3S1g8Zn)
-5. 8+2 Pins 2.54mm Pin Header Female - [Buy in AliExpress](https://s.click.aliexpress.com/e/_c3S1g8Zn)
+1. 4x 0603 1MΩ Resistors - [Buy in AliExpress](https://s.click.aliexpress.com/e/_c3NsuvBF)
+2. 1x 0805 470nF Capacitor - [Buy in AliExpress](https://s.click.aliexpress.com/e/_c3pQLw5L)
+3. 1x MSK12C02 Slide Switch - [Buy in AliExpress](https://s.click.aliexpress.com/e/_c3mGFjHJ)
+4. 8+2 Pins 2.54mm Pin Header Male - [Buy in AliExpress](https://s.click.aliexpress.com/e/_c4aDgPf3)
+5. 8+2 Pins 2.54mm Pin Header Female - [Buy in AliExpress](https://s.click.aliexpress.com/e/_c4aDgPf3)
 
 Tools:
-1. Soldering Station (any) - [Buy in AliExpress](https://s.click.aliexpress.com/e/_c3TB0DUp) (<= this is the one I used)
+1. Soldering Station (any) - [Buy in AliExpress](https://s.click.aliexpress.com/e/_c4r5LdUN) (<= this is the one I used)
 2. Double-sided adhesive tape - [Buy in AliExpress](https://s.click.aliexpress.com/e/_c44TEvrn)
 
 ## License
