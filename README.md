@@ -7,6 +7,8 @@ WeatherPaper is a health and comfort-focused smart weather station designed arou
 
 **Looking for the step-by-step build guide?** Check out the full project write-up on [Instructables](https://www.instructables.com/WeatherPaper-Squeezing-500-Days-of-Battery-Life-Ou/)!
 
+Thanks to the XDA Developers team, this project has been featured in a write-up: [XDA Developers](https://www.xda-developers.com/this-esp32-e-paper-weather-tracker-runs-off-one-battery-charge-for-15-years/)
+
 ## Features
 * **500 Days Battery Life:** WiFi fetching uptime cuts to a fraction of a second, driven by aggressive power management in software optimisation and firmware downclocking. 
 * **Seamless WiFi Captive Setup:** By utilising `WiFiManager` captive portal, there's no need to hardcode sensitive WiFi credentials or API keys into the source code.
